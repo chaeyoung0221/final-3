@@ -1,0 +1,269 @@
+<html>
+<head>
+<style>
+    body {
+        background-image: url(https://i.pinimg.com/originals/56/73/6e/56736e99269e9e1fe8eed4b8b911644e.gif);
+        background-repeat: no-repeat;
+        background-size: 1920px 1080px;
+        overflow-x: hidden; /* x축 스크롤 고정 */
+        overflow-y: hidden; /* y축 스크롤 방지 */
+}
+    .snow-image1 {
+    position: absolute; /* 절대 위치 */
+    top: 70%; /* 화면 높이의 40% 위치 */
+    left: 70%; /* 화면 너비의 50% 위치 */
+    transform: translateX(-50%); /* 중앙 정렬 */
+    width: 70vw; /* 화면 너비의 40% */
+    height: auto; /* 비율 유지 */
+}
+.snow-image2 {
+    position: absolute; /* 절대 위치 */
+    top: 90%; /* 화면 높이의 50% 위치 */
+    left: 0; /* 왼쪽 끝에 배치 */
+    transform: translateY(-50%); /* 세로로 중앙 정렬 */
+    width: 70vw; /* 화면 너비의 40% */
+    height: auto; /* 비율 유지 */
+}
+</style>
+    </head>
+</body>
+</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Example</title>
+</head>
+<body>
+    <!-- svg파일 경로를 src에 넣으세요 -->
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/메인 트리 이미지 copy.  2.svg" alt="tree" class="main-tree-Image">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Vector 1.svg" alt="SVG Image2" class="snow-image2">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Group 98.svg" alt="letter" class="letter2">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Group 97.svg" alt="letter" class="letter3">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/메인 트리 이미지 2  .svg" alt="tree" class="tree1">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/메인 트리 이미지 3 .svg" alt="tree2" class="tree2">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/메인 트리 이미지  4.svg" alt="tree2" class="tree3">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/메인 트리 이미지 5 .svg" alt="tree2" class="tree4">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Component  1.svg" alt="letter" class="letter4">
+    <img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Vector 3.svg" alt="snow"class="snow-image1">
+</body>
+</html>
+<style>
+.text-style {
+    color: #FFF;
+    font-family: 'Chalkduster', sans-serif;
+    font-size: 3vw; /* 화면 너비의 5%로 폰트 크기 설정 */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: auto; /* 자동으로 높이 조정 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* 절대 위치 */
+    top: 5vh; /* 화면 높이의 10%로 위치 설정 */
+    left: 37vw; /* 화면 너비의 10%로 왼쪽 여백 설정 */
+}
+.tree1 {
+    position: absolute; /* 절대 위치 */
+    top: 24vh; /* 화면 높이의 15% 위치 */
+    left: 14vw; /* 화면 너비의 -5% 위치 */
+    width: 23vw; /* 화면 너비의 30% */
+    height: auto; /* 비율 유지 */
+    z-index: 15;
+}
+.tree2 {
+    position: absolute; /* 절대 위치 */
+    top: 25vh; /* 화면 높이의 15% 위치 */
+    left: 75vw; /* 화면 너비의 50% 위치 (중앙 정렬) */
+    width: 24vw; /* 화면 너비의 30% */
+    height: auto; /* 비율 유지 */
+    transform: translateX(-50%); /* 중앙 정렬을 위한 이동 */
+    z-index: 15;
+}
+.tree3 {
+    position: absolute; /* 절대 위치 */
+    top: 20vh; /* 화면 높이의 20% 위치 */
+    left: -7vw; /* 화면 너비의 -20% 위치 */
+    width: 27vw; /* 화면 너비의 30% */
+    height: auto; /* 비율 유지 */
+    z-index: 15;
+}
+.tree4 {
+    position: absolute; /* 절대 위치 */
+    top: 21vh; /* 화면 높이의 20% 위치 */
+    left: 82vw; /* 화면 너비의 80% 위치 */
+    width: 26vw; /* 화면 너비의 25% */
+    height: auto; /* 비율 유지 */
+    z-index: 15;
+}
+
+.letter2 {
+    position: absolute; /* 절대 위치 */
+    top: 12vh; /* 화면 높이의 10%로 위쪽 위치 설정 */
+    left: 65%; /* 화면 중앙으로 배치 */
+    transform: translateX(-50%); /* 정확히 중앙 정렬 */
+    width: 5vw; /* 화면 너비의 10%로 크기 설정 */
+    height: 5vw; /* 화면 너비의 10%로 높이 설정 */
+    z-index: 99999999;
+}
+.letter3 {
+    position: absolute; /* 절대 위치 */
+    top: 12vh; /* 화면 높이의 10%로 위쪽 위치 설정 */
+    left: 50%; /* 화면 중앙으로 배치 */
+    transform: translateX(-50%); /* 정확히 중앙 정렬 */
+    width: 5vw; /* 화면 너비의 10%로 크기 설정 */
+    height: 5vw;/* 화면 너비의 10%로 높이 설정 */
+    z-index: 99999999;
+}
+.letter4 {
+    position: absolute; /* 절대 위치 */
+    top: 12vh; /* 화면 높이의 10%로 위쪽 위치 설정 */
+    left: 35%; /* 화면 중앙으로 배치 */
+    transform: translateX(-50%); /* 정확히 중앙 정렬 */
+    width: 5vw; /* 화면 너비의 10%로 크기 설정 */
+    height: 5vw;/* 화면 너비의 10%로 높이 설정 */
+    z-index: 999999999999999999999;
+    padding: 20px; 
+}
+.main-tree-Image {
+    position: absolute; /* 절대 위치 */
+    top: 17%; /* 위쪽 여백: 비율로 설정 */
+    left: 50%; /* 중앙 정렬 */
+    transform: translateX(-50%); /* 왼쪽 여백을 화면의 50%에서 중앙으로 이동 */
+    width: 40vw; /* 화면 너비의 40%로 이미지 크기 조정 */
+    height: auto; /* 비율 유지 */
+    z-index: 5;
+}
+
+
+</style>
+</head>
+<body>
+<div class="text-style">
+ christmas carol
+</div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .letter4{
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            z-index: 10;
+
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <!-- 클릭 가능한 아이콘 -->
+    <img 
+        src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Component  1.svg" 
+        alt="letter4"
+        class="letter4" 
+        id="letter4"
+    >
+
+    <script>
+        // JavaScript로 아이콘 클릭 시 페이지 이동 설정
+        document.getElementById('letter4').addEventListener('click', function () {
+            window.location.href = 'page2 .html'; // Page2으로 이동
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .letter3{
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            padding: 20px;
+            box-sizing: content-box; 
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <!-- 클릭 가능한 아이콘 -->
+    <img 
+        src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Group 97.svg" 
+        alt="letter3"
+        class="letter3" 
+        id="letter3"
+    >
+
+    <script>
+        // JavaScript로 아이콘 클릭 시 페이지 이동 설정
+        document.getElementById('letter3').addEventListener('click', function () {
+            window.location.href = 'page3.html'; // Page2으로 이동
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .letter2{
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            padding: 20px;
+            box-sizing: content-box; 
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <!-- 클릭 가능한 아이콘 -->
+    <img 
+        src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Group 98.svg" 
+        alt="letter2"
+        class="letter2" 
+        id="letter2"
+    >
+
+    <script>
+        // JavaScript로 아이콘 클릭 시 페이지 이동 설정
+        document.getElementById('letter2').addEventListener('click', function () {
+            window.location.href = 'page4 .html'; // Page2으로 이동
+        });
+    </script>
+</body>
+</html>
+
+

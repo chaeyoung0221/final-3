@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+   body {
+    background-color: #090A1C;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+}
+        .snow {
+    position: absolute; /* 절대 위치 */
+    width: 110vw; /* 화면 너비의 110%로 크기 설정 */
+    top: 70%; /* 화면 높이의 50% 위치 */
+    left: 00%;
+    
+}
+    .main-tree-Image {
+    position: absolute; /* 절대 위치 */
+    top: -60; /* 위쪽 여백 */
+    left: 23%; 
+    transform: translateX(-50%);
+    width: 50vw;
+    height: auto; /* 비율 유지 */
+    z-index: 100;
+
+}
+.song-lyrics{
+    position: absolute; /* 절대 위치 */
+    top:15vh;
+    left: 65%;
+    transform: translateX(-50%);
+    width: 40vw;/* 이미지 크기 */
+    height: auto; /* 비율 유지 */
+
+}
+.arrow{
+    position: absolute; /* 절대 위치 */
+    top: 75vh; /* 화면 높이의 70%로 위쪽 위치 설정 */
+    left: 95vw; 
+    width: 5vw; 
+    height:auto;
+    transform: translateX(-50%);
+}
+
+
+
+</style>
+</head>
+</body>
+</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Example</title>
+</head>
+<body>
+<!-- svg파일 경로를 src에 넣으세요 -->
+<img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /메인 트리 이미지 copy. 2 2.svg" alt="tree" class="main-tree-Image">
+<img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /image/Group 106.svg" alt="song-lyrics" class="song-lyrics">
+<img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /typcn_arrow-back.svg" alt="arrow" class="arrow">
+<img src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /Vector 87.svg" class="snow">
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <style>
+        .arrow{
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <!-- 클릭 가능한 아이콘 -->
+    <img 
+        src="/Users/kimchaeyoung/Documents/디지털 이미지 기말 /typcn_arrow-back.svg" 
+        alt="arrow"
+        class="arrow" 
+        id="arrow"
+    >
+
+    <script>
+        // JavaScript로 아이콘 클릭 시 페이지 이동 설정
+        document.getElementById('arrow').addEventListener('click', function () {
+            window.location.href = 'index.html'; // Page1으로 이동
+        });
+    </script>
+
+
+
+<audio id="background-audio" autoplay>
+    <source src="/Users/kimchaeyoung/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/We Wish You a Merry Christmas with Lyrics _ Christmas Carol & Song (320 kbps) 1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
